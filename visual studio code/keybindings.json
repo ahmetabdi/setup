@@ -1,0 +1,101 @@
+// Place your key bindings in this file to overwrite the defaults
+[{
+  "key": "cmd+t",
+  "command": "workbench.action.quickOpen"
+},
+{
+  "key": "cmd+e",
+  "command": "editor.action.goToDeclaration",
+  "when": "editorTextFocus"
+},
+{
+  "key": "cmd+shift+e",
+  "command": "editor.action.previewDeclaration"
+},
+{
+  "key": "cmd+y",
+  "command": "redo",
+  "when": "editorTextFocus"
+},
+{
+  "key": "cmd+1",
+  "command": "workbench.action.openEditorAtIndex1"
+},
+{
+  "key": "cmd+2",
+  "command": "workbench.action.openEditorAtIndex2"
+},
+{
+  "key": "cmd+3",
+  "command": "workbench.action.openEditorAtIndex3"
+},
+{
+  "key": "cmd+4",
+  "command": "workbench.action.openEditorAtIndex4"
+},
+{
+  "key": "cmd+5",
+  "command": "workbench.action.openEditorAtIndex5"
+},
+{
+  "key": "cmd+6",
+  "command": "workbench.action.openEditorAtIndex6"
+},
+{
+  "key": "cmd+7",
+  "command": "workbench.action.openEditorAtIndex7"
+},
+{
+  "key": "cmd+8",
+  "command": "workbench.action.openEditorAtIndex8"
+},
+{
+  "key": "cmd+9",
+  "command": "workbench.action.openEditorAtIndex9"
+},
+{
+  "key": "cmd+enter",
+  "command": "workbench.action.toggleFullScreen"
+},
+{
+  "key": "cmd+\\",
+  "command": "workbench.action.toggleSidebarVisibility"
+},
+{
+  "key": "ctrl+q",
+  "command": "workbench.action.moveActiveEditorGroupLeft"
+},
+{
+  "key": "ctrl+e",
+  "command": "workbench.action.moveActiveEditorGroupRight"
+},
+{
+  "key": "cmd+'",
+  "command": "workbench.action.splitEditor"
+},
+{
+  "key": "cmd+l",
+  "command": "workbench.action.gotoLine"
+},
+{
+  "key": "F1",
+  "command": "HookyQR.beautify",
+  "when": "editorFocus"
+},
+{
+  "key": "F2",
+  "command": "workbench.action.toggleZenMode"
+},
+{
+  "key": "cmd+r",
+  "command": "runInTerminal.run",
+  "args": {
+      "cmd": "dcr web mix test ${relativeFile}:${line}",
+      "match": ".*"
+  }
+}
+]
+// { "key": "F2", "command": "workbench.action.terminal.toggleTerminal"},
+// { "key": "F3", "command": "workbench.action.toggleDevTools"},
+// { "key": "F4", "command": "workbench.action.toggleSidebarPosition"},
+// { "key": "F5", "command": "workbench.action.toggleStatusbarVisibility"},
