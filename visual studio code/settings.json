@@ -17,8 +17,8 @@
     "**/.bundle": true,
     "**/.yardoc": true,
     "**/tmp": true,
-    "**/deps": true,
-    "**/_build": true,
+    "**/deps": true, // Elixir
+    "**/_build": true, // Elixir
     "_universe": true,
     ".expo": true,
     ".expo-source": true,
@@ -73,11 +73,6 @@
   "gitlens.historyExplorer.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "ruby.intellisense": "rubyLocate",
-  "githubPullRequests.hosts": [
-    {
-      "host": "https://github.com",
-      "username": "oauth",
-      "token": "system"
-    }
-  ],
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
 }
