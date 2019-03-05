@@ -1,3 +1,4 @@
+set fish_greeting
 set -g theme_nerd_fonts yes
 set -g theme_display_git no
 set -U fish_user_paths /Library/Frameworks/Python.framework/Versions/3.6/bin ~/Library/Python/3.6/bin $fish_user_paths
