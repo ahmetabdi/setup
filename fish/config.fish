@@ -113,6 +113,10 @@ alias staging='git checkout staging'
 alias gpr='git pull --rebase'
 alias gb='git branch'
 alias gpom='git pull origin master'
+alias amend='git commit --amend' # Amends last commit
+alias undo='git reset HEAD~' # Undos last commit if you want to make changes
+alias clearall='git branch | grep -v "master" | xargs git branch -D' # Delete all branches but master
+alias clearmerged='git branch --merged master --no-color | grep -v master | grep -v stable | xargs git branch -d' # Delete all merged into master
 
 alias l='ls -la -G'
 alias ls='ls -la -G'
